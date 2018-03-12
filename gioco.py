@@ -10,7 +10,7 @@ def tempo():
 	else:
 		nm = tris/60
 		ns = tris%60
-		tris = str(nm) + " minuti e " + str(ns) + " secondi"
+		tris = str(round(nm, 0)) + " minuti e " + str(round(ns, 0)) + " secondi"
 
 ntent = 1
 npg = 0
