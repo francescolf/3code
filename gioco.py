@@ -26,7 +26,7 @@ elg.append(cs1)
 elg.append(cs2)
 elg.append(cs3)
 sol = str(cs1) + str(cs2) + str(cs3)
-tin = time.time()
+tin = time()
 
 while ind == "no":
 	print("\n\n\n\n\n\n" + info + "\n\n\n\n\n\n\n\n")
@@ -37,7 +37,7 @@ while ind == "no":
 
 	if nin == sol:
 		ind = "si"
-		tfi = time.time()
+		tfi = time()
 		tris = tfi-tin
 		tempo()
 		print("\n\n\nCorretto!\n\nTentativi: " + str(ntent) + "\nTempo: " + str(tris) + "\n\n\n")
