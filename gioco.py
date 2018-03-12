@@ -1,6 +1,6 @@
 from sys import exit
 from random import randint
-import time
+from time import time
 
 def tempo():
 	global tris
