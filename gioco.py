@@ -11,6 +11,7 @@ def tempo():
 		nm = tris/60
 		ns = tris%60
 		tris = str(round(nm, 0)) + " minuti e " + str(round(ns, 0)) + " secondi"
+	tris = tris.replace(".0", "")
 
 ntent = 1
 npg = 0
