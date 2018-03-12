@@ -5,7 +5,6 @@ from time import time
 def tempo():
 	global tris
 	tris = tfi-tin
-	print(str(tris))
 	if tris < 60:
 		tris = str(round(tris, 0)) + " secondi"
 	else:
