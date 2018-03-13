@@ -34,6 +34,7 @@ while ind == "no":
 	ni1 = int(nin[0])
 	ni2 = int(nin[1])
 	ni3 = int(nin[2])
+	info = ""
 
 	if nin == sol:
 		ind = "si"
