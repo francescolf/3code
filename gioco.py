@@ -1,4 +1,3 @@
-from sys import exit
 from random import randint
 from time import time
 
@@ -65,5 +64,3 @@ while ind == "no":
 		neg = 0
 		npg = 0
 		ntent = ntent+1
-			
-exit()
